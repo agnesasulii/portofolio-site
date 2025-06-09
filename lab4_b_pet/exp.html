@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Education and Experience</title>
+     <link rel="icon" href="cherry-blossom.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> <a href="index.html">Agnesa Suli</a> </div>
+        <nav>
+           <a href="about.html">About Me</a>
+            <a href="exp.html">Education and Experience</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+<section class="education-experience">
+  <div class="edu-exp-container">
+    <h2>🎓 Education & 🌱 Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item hidden">
+        <h3>2024 – Present</h3>
+        <p><strong>Computer Science Student</strong><br>FINKI – UKIM, Skopje</p>
+      </div>
+
+      <div class="timeline-item hidden">
+        <h3>2020 – 2024</h3>
+        <p><strong>Creative Projects</strong><br>Photography, writing, and personal blogging journey. You can read my Articles <a href="https://mikrofoni.mk/author/agnesa/">here</a></p>
+      </div>
+<div class="timeline-item hidden">
+  <h3>2021 – 2022</h3>
+  <p>
+    <strong>Full-Stack Web Development Course</strong><br>
+    Digital School – Front-end & Back-end fundamentals.<br>
+    <em>I also completed a capstone project, but the domain hasn't been paid for, so it's not yet published.</em>
+  </p>
+</div>
+      <div class="timeline-item hidden">
+        <h3>2020 – 2024</h3>
+        <p><strong>High School</strong><br>Science-focused studies, with passion for literature and arts.</p>
+      </div>
+         
+    </div>
+  </div>
+</section>
+
+    <footer id="contact">
+        <p>Connect with me: 
+            <a href="https://instagram.com/agnesasulii" target="_blank">Instagram</a> | 
+            <a href="mailto:agnesasuli@gmail.com">Email</a>
+        </p>
+    </footer>
+
+    <script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  });
+
+  const hiddenItems = document.querySelectorAll('.timeline-item.hidden');
+  hiddenItems.forEach(item => observer.observe(item));
+</script>
+
+    </body>

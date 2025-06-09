@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hobbies</title>
+     <link rel="icon" href="cherry-blossom.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> <a href="index.html">Agnesa Suli</a> </div>
+        <nav>
+              <a href="about.html">About Me</a>
+            <a href="exp.html">Education and Experience</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+<section class="hobbies-section">
+  <div class="container">
+    <h2>🌿 Hobbies & Personal Passions</h2>
+
+    <div class="hobby-block">
+      <h3>📚 Literature, Philosophy & Latin</h3>
+      <p>
+        My soul finds rest between the lines of a book. I am deeply passionate about literature, ancient philosophy, and the Latin language. These worlds shape my thinking, inspire my writing, and make me reflect endlessly on the meaning of life.
+      </p>
+      <p>Some of my favorite books:</p>
+      <ul>
+        <li><em>Thus Spoke Zarathustra</em> – Friedrich Nietzsche</li>
+        <li><em>One Hundred Years of Solitude</em> – Gabriel García Márquez</li>
+        <li><em>The Picture of Dorian Gray</em> – Oscar Wilde</li>
+        <li><em>Letters to a Young Poet</em> – Rainer Maria Rilke</li>
+        <li><em>1984</em> - George Orwell</li>
+        <li><em>The Brothers Karamazov</em> - Fyodor Dostoevsky</li>
+        <li><em>Pride & Prejudice </em> - Jane Austen</li>
+        <li><em>Anna Karenina</em> - Leo Tolstoy</li>
+        <li><em>Lolita</em> - Vladimir Nabokov </li>
+      </ul>
+<br><br><br>
+      <h3>Latin phrases I love:</h3>
+      <ul>
+        <li><strong>"non loqui sed facere "</strong> – not talk but action</li>
+        <li><strong>"Cogito, ergo sum"</strong> – I think, therefore I am</li>
+        <li><strong>"Amor fati"</strong> – Love of fate</li>
+        <li><strong>"Memento mori"</strong> – Remember you must die</li>
+        <li><strong>"adtigo planitia Lunae"</strong> - I will reach the plains of the Moon </li>
+         <li><strong>"amor vincit omnia"</strong> - love conquers all </li>
+          <li><strong>"Audi alteram partem"</strong> - Hear the other side.</li>
+          <li><strong>"Dum spiro, spero"</strong> - While I breathe, I hope.</li>
+          <li><strong>"virtus tentamine gaudet"</strong> - strength rejoices in the challenge</li>
+      </ul>
+    </div>
+
+    <div class="hobby-block">
+      <h3>📷 Photography – Through My Father's Lens</h3>
+      <p>
+        I own a camera that once belonged to my father, and it's more than just a device – it's a memory keeper. I love capturing moments, faces, places – fragments of time. In my free time, I explore hidden corners of the city or nature, chasing the perfect shot.
+      </p>
+       <div class="photo-gallery">
+        <div class="slideshow-container">
+          <div class="slide fade"><img src="images/1000000176.jpeg" alt="Captured Moment 1"></div>
+          <div class="slide fade"><img src="images/1000001954.jpeg" alt="Captured Moment 2"></div>
+          <div class="slide fade"><img src="images/1000001975.jpeg" alt="Captured Moment 3"></div>
+
+          <div class="slide fade"><img src="images/1000001985.jpeg" alt="Captured Moment 1"></div>
+          <div class="slide fade"><img src="images/1000002056.jpeg" alt="Captured Moment 2"></div>
+          <div class="slide fade"><img src="images/1000002113.jpeg" alt="Captured Moment 3"></div>
+
+          <div class="slide fade"><img src="images/1000002117.jpeg" alt="Captured Moment 1"></div>
+          <div class="slide fade"><img src="images/1000002248.jpeg" alt="Captured Moment 2"></div>
+          <div class="slide fade"><img src="images/1000002142.jpeg" alt="Captured Moment 3"></div>
+
+          <div class="slide fade"><img src="images/1000002188.jpeg" alt="Captured Moment 1"></div>
+          <div class="slide fade"><img src="images/1000002244.jpeg" alt="Captured Moment 2"></div>
+          <div class="slide fade"><img src="images/1000002247.jpeg" alt="Captured Moment 3"></div>
+
+         
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="hobby-block">
+      <h3>😂 Meme Page – My Digital Diary</h3>
+      <p>
+        Believe it or not, I also run a meme page – basically my spam account. I create memes based on my daily experiences: things that happen at university, random street moments, regional events, or even global chaos. It's my comic relief.
+      </p>
+
+      <div class="meme-gallery">
+        <img src="32F6AC38-8DEA-4931-9F0E-7F9A61317806.jpeg" alt="Meme 1">
+          <!-- <video controls>
+          <source src="video-output-A366F318-B147-4409-8DA3-9923ABCA89EB-1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video> -->
+        <img src="IMG_3488.jpeg" alt="Meme 2">
+        
+      </div>
+
+      <button id="randomMeme">Show me a random thought 💭</button>
+      <p id="memeThought"></p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+   <footer id="contact">
+        <p>Connect with me: 
+            <a href="https://instagram.com/agnesasulii" target="_blank">Instagram</a> | 
+            <a href="mailto:agnesasuli@gmail.com">Email</a>
+        </p>
+    </footer>
+
+
+    <script>
+  const thoughts = [
+    "Why do we learn recursion? So we can learn recursion.",
+    "Another day, another existential crisis triggered by a Latin quote.",
+    "Coding bug at 2AM? Time for memes.",
+    "Is this real life or just another meme-worthy glitch in the matrix?",
+    "what day is tomorrow? wednesday? 6hrs calculus :(",
+    "If life is a simulation, I definitely chose 'Chaotic Mode'.",
+    "I don't need therapy, I just need 8 hours of meme scrolling and a nap.",
+    "Why do I open the fridge 10 times like I'm waiting for a plot twist?",
+    "My brain has 38 tabs open. One is playing music. I don’t know where.",
+    "If you can’t convince them, confuse them with memes. - when the lab staff askes me explain your code...",
+    "Sometimes I feel like the NPC in someone else's story."
+  ];
+
+  document.getElementById("randomMeme").addEventListener("click", () => {
+    const thought = thoughts[Math.floor(Math.random() * thoughts.length)];
+    document.getElementById("memeThought").innerText = thought;
+  });
+
+   const hobbyBlocks = document.querySelectorAll('.hobby-block');
+  const revealOnScroll = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+  hobbyBlocks.forEach(block => revealOnScroll.observe(block));
+
+  let slideIndex = 0;
+  const showSlides = () => {
+    let slides = document.querySelectorAll(".slide");
+    slides.forEach(slide => slide.style.display = "none");
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000);
+  }
+  showSlides();
+</script>
+    </body>
